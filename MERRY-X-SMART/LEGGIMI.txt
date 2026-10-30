@@ -1,0 +1,29 @@
+MERRY X-SMART — PACCHETTO COMPLETO DEL SITO
+
+Versione esportata: 30 ottobre 2026
+Sito: https://cinque-domande-quiz-k7m4.geberit-ital-7037.chatgpt.site
+
+CONTENUTO
+- sito/: sito pronto all’uso, con index.html, style.css, quiz.js e tutte le immagini utilizzate in assets/.
+- domande-e-risposte.json: cinque domande, quattro opzioni per domanda, risposta corretta e riferimenti alle immagini. Il campo correct usa indici da 0 a 3 (0=A, 1=B, 2=C, 3=D).
+- SHA256SUMS.txt: impronte dei file per verificarne l’integrità.
+
+APERTURA
+Estrai tutto lo ZIP mantenendo la struttura delle cartelle e apri sito/index.html nel browser.
+In alternativa, con Python installato, entra nella cartella sito ed esegui:
+python -m http.server 8000
+Poi apri http://localhost:8000.
+
+PUBBLICAZIONE
+Carica il contenuto della cartella sito nella cartella pubblica di qualsiasi hosting per siti statici. index.html deve essere nella cartella iniziale. Non occorrono compilazione, database o dipendenze da installare.
+
+MODIFICHE
+Le domande e le risposte operative sono in sito/quiz.js. Modifica quel file per cambiare il quiz; il JSON è una copia dei dati per consultazione e riutilizzo, non viene caricato dal sito.
+Lo stile è in sito/style.css. Le immagini sono in sito/assets/.
+I font Bungee, Silkscreen, Space Mono e DM Sans sono caricati da Google Fonts: richiedono Internet. In assenza di connessione il sito usa i font alternativi indicati nel CSS.
+
+FUNZIONAMENTO
+Selezione dell’opzione, conferma, esito immediato e passaggio alla domanda successiva. Punteggio finale e pulsante Ricomincia.
+I messaggi finali assegnano 3 numeri con 5/5, 2 numeri con 3–4/5, 1 numero con 1–2/5 e nessun numero con 0/5.
+Le risposte dei partecipanti restano nella memoria della pagina e si azzerano al riavvio: non sono raccolte in un database e non esiste un archivio dei risultati da esportare.
+Questo pacchetto contiene la versione corrente del sito, non la cronologia delle pubblicazioni o le impostazioni dell’account di hosting.

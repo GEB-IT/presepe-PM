@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Di che materiale sono fatti i mobili delle serie Selnova Square?",
+    "options": [
+      "Truciolato ad alta densità",
+      "MDF “Medium Density Fiberboard”",
+      "Legno massello",
+      "Marzapane"
+    ],
+    "correct": 0,
+    "topic": "Giuseppe e i mobili Selnova Square",
+    "media": {
+      "type": "image",
+      "src": "assets/giuseppe-selnova-square.webp",
+      "alt": "Giuseppe con cuffie davanti al portatile, nella bottega con mobili e lavabo Selnova Square"
+    }
+  },
+  {
+    "title": "Quali di questi AquaClean non ha il getto lady?",
+    "options": [
+      "Sela",
+      "Mera Classic",
+      "Alba",
+      "Tuma Comfort"
+    ],
+    "correct": 2,
+    "topic": "Maria in smart working",
+    "media": {
+      "type": "image",
+      "src": "assets/maria-smart-working.webp",
+      "alt": "Maria con cuffie osserva uno smartphone nella grotta con WC moderno"
+    }
+  },
+  {
+    "title": "Oro rosso, ottone e sabbia sono 3 finiture di quale placca?",
+    "options": [
+      "Sigma01",
+      "Sigma20",
+      "Sigma40",
+      "Sigma80"
+    ],
+    "correct": 2,
+    "topic": "I Re Magi e le placche di comando",
+    "media": {
+      "type": "image",
+      "src": "assets/re-magi-placche.webp",
+      "alt": "I tre Re Magi con cuffie dorate davanti a un tavolo con placche di comando e un tablet",
+      "width": 1672,
+      "height": 819
+    }
+  },
+  {
+    "title": "Per garantire la conformità alle norme sull'acqua potabile relative ad edifici residenziali e stalle i raccordi FlowFit sono in bronzo senza...",
+    "options": [
+      "Nichel",
+      "Piombo",
+      "Zuccheri aggiunti",
+      "Conservanti"
+    ],
+    "correct": 1,
+    "topic": "L’asinello in smart working",
+    "media": {
+      "type": "image",
+      "src": "assets/asinello-smart-working.webp",
+      "alt": "Asinello con cuffie nella stalla, con un portatile e un secchio sotto il rubinetto",
+      "width": 1672,
+      "height": 941
+    }
+  },
+  {
+    "title": "Nella stalla hanno installato 4 mangiaoie che scaricano (2,5 l/s) ed un WC. Quanto deve essere il diametro della colonna che le porta?",
+    "options": [
+      "90",
+      "110",
+      "125",
+      "160"
+    ],
+    "correct": 1,
+    "topic": "Il bue in smart working",
+    "media": {
+      "type": "image",
+      "src": "assets/bue-smart-working.webp",
+      "alt": "Bue con cuffie nella stalla, davanti a un portatile e accanto alla tubazione di scarico della mangiatoia",
+      "width": 1672,
+      "height": 941
+    }
+  }
+]
